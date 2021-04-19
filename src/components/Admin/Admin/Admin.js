@@ -10,7 +10,7 @@ import {
     Link
 } from "react-router-dom";
 import { UserContext } from '../../../App';
-import { useContext, useEffect, useState } from 'react/cjs/react.development';
+import { useContext, useEffect, useState } from 'react';
 
 const Admin = () => {
     const [loginUser, SetLoginUser] = useContext(UserContext);

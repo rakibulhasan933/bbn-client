@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContext, useEffect, useState } from 'react/cjs/react.development';
+import { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../../App';
 
 const PackageList = () => {

@@ -3,7 +3,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import { CardElement } from '@stripe/react-stripe-js';
 import { useForm } from "react-hook-form";
-import { useContext, useEffect } from 'react/cjs/react.development';
+import { useContext, useEffect } from 'react';
 import { ProductContext, UserContext } from '../../../App';
 
 

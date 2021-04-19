@@ -1,7 +1,7 @@
 import React from 'react';
 import ServicesInfo from '../ServicesInfo/ServicesInfo';
 import { useEffect } from 'react';
-import { useContext, useState } from 'react/cjs/react.development';
+import { useContext, useState } from 'react';
 import { ProductsContext } from '../../../App';
 
 const PackagesService = () => {
