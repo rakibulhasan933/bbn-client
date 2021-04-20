@@ -9,7 +9,7 @@ const MakeAdmin = () => {
             email: data.email,
         };
         console.log(adminData);
-        fetch(`http://localhost:5000/addAdmin`, {
+        fetch(`https://pure-coast-41590.herokuapp.com/addAdmin`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(adminData)

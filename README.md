@@ -1,4 +1,5 @@
-react app  bbn network
+#   bbn network
+# live link: https://bb-network-5f38e.web.app (https://bb-network-5f38e.web.app/)
 
 Telecommunications
 In telecommunications, a broadband signalling method is one that handles a wide band of frequencies. "Broadband" is a relative term, understood according to its context. The wider (or broader) the bandwidth of a channel, the greater the data-carrying capacity, given the same channel quality.

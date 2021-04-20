@@ -3,7 +3,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import { CardElement } from '@stripe/react-stripe-js';
 import { useForm } from "react-hook-form";
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { ProductContext, UserContext } from '../../../App';
 
 
@@ -23,7 +23,7 @@ const Book = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch(`http://localhost:5000/addOder`, {
+        fetch(`https://pure-coast-41590.herokuapp.com/addOder`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(oderData)

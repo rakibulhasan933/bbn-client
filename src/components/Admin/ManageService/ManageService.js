@@ -7,7 +7,7 @@ const ManageService = () => {
     const [products, setProducts] = useContext(ProductsContext);
     console.log(products);
     const deletedProduct = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://pure-coast-41590.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

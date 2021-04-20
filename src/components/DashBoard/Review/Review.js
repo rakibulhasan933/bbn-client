@@ -16,7 +16,7 @@ const Review = () => {
             feedback: data.feedback
         };
         console.log(eventData);
-        fetch(`http://localhost:5000/addReview`, {
+        fetch(`https://pure-coast-41590.herokuapp.com/addReview`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(eventData)

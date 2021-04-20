@@ -13,7 +13,7 @@ const AddProduct = () => {
             imageURL: imageURL
         };
         console.log(eventData);
-        fetch(`http://localhost:5000/addProduct`, {
+        fetch(`https://pure-coast-41590.herokuapp.com/addProduct`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(eventData)

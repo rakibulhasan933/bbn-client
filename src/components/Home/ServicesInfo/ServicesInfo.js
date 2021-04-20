@@ -7,7 +7,7 @@ const ServicesInfo = ({ data }) => {
     const [selectProduct, setSelectProduct] = useContext(ProductContext);
 
     const handleClick = (id) => {
-        fetch(`http://localhost:5000/product/${id}`)
+        fetch(`https://pure-coast-41590.herokuapp.com/product/${id}`)
             .then(res => res.json())
             .then(data => {
                 setSelectProduct(data);

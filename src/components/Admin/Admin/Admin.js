@@ -17,7 +17,7 @@ const Admin = () => {
     const [isDeveloper, setIsDeveloper] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/isDeveloper', {
+        fetch('https://pure-coast-41590.herokuapp.com/isDeveloper', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loginUser.email })
