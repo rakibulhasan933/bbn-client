@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { useContext } from 'react';
 import { ProductContext } from '../../../App';
+import './ServicesInfo.css';
 
 const ServicesInfo = ({ data }) => {
     const [selectProduct, setSelectProduct] = useContext(ProductContext);
@@ -18,7 +19,7 @@ const ServicesInfo = ({ data }) => {
         <>
             <div className="col-md-4 d-flex border rounded" >
                 <div>
-                    <div >
+                    <div className="zoom">
                         <img style={{ width: '200px', }} className=" rounded-3 img-fluid" src={data.imageURL} alt="" />
                     </div>
                     <div className="text-center">

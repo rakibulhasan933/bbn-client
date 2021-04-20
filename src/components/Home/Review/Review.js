@@ -11,10 +11,12 @@ const Review = () => {
             .then(data => setReview(data))
     }, [])
     return (
-        <div className="row container">
-            {
-                review.map(review => <ReviewDetail review={review} ></ReviewDetail>)
-            }
+        <div className="container">
+            <div className="row ">
+                {
+                    review.map(review => <ReviewDetail review={review} ></ReviewDetail>)
+                }
+            </div>
         </div>
     );
 };
